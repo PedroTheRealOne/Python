@@ -7,7 +7,7 @@ bot = ChatBot('Waifu')
 
 chatI = ['ohayo','ohayo senpai','How r u?','Im fine','Senpai, What are you doing?']
 
-chatT = ['Im just waiting you', 'Thanks']
+chatT = ['Im just waiting you', 'Thanks', 'How was your day, Senpai?']
 
 chatDump = ['You are scarring me']
 
