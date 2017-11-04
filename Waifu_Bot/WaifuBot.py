@@ -3,7 +3,12 @@
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 
-bot = ChatBot('Waifu')
+
+print ('Welcome!')
+waifuName = input('Name your waifu: ')
+
+
+bot = ChatBot(waifuName)
 
 chatI = ['ohayo','ohayo senpai','Supp','How rude','How are you?','Im fine','Senpai, What are you doing?', 'I love you senpai']
 
@@ -23,12 +28,13 @@ bot.train(chatQ)
 bot.train(chatR)
 bot.train(chatDump)
 
+
 while True:
     question = input('Daddy: ')
 
     response = bot.get_response(question)
     
     if float(response.confidence) > 0.5:
-        print('Waifu: ', response)
+        print(waifuName,':' ,response)
     else:
-        print('Waifu: ', response)
+        print(waifuName,':' ,response)
