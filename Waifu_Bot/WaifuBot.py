@@ -10,7 +10,7 @@ waifuName = input('Name your waifu: ')
 
 bot = ChatBot(waifuName)
 
-chatI = ['ohayo','ohayo senpai','Supp','How rude','How are you?','Im fine','Senpai, What are you doing?', 'I love you senpai']
+chatI = ['ohayo','ohayo senpai','Supp','How rude','How are you?','Im fine, and you?','Senpai, What are you doing?', 'I love you senpai']
 
 chatT = ['Im just waiting you', 'Thanks', 'How was your day, Senpai?']
 
