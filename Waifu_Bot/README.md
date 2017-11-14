@@ -1,6 +1,8 @@
 # Waifu Bot
 
-Chat bot using ChatterBot just for fun. Using Python.
+Chat bot made in Python.
+Using ChatterBot.
+This bot is a for fun bot.
 
 ## Prerequisites
 
@@ -9,4 +11,4 @@ pip install chatterbot
 ```
 
 ### How to use
-Run the file and just start the conversation.
+Run the py file and start talking.
